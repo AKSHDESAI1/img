@@ -36,7 +36,7 @@
             width: 100%;
             height: 100px;
             background: linear-gradient(to top, #010405, transparent);
-            /* z-index: 100000; */
+            z-index: 100000;
         }
 
 
@@ -46,7 +46,7 @@
 } */
 
         section img {
-            position: relative;
+            position: absolute;
             top: 0;
             left: 0;
             max-width: 100%;
@@ -81,12 +81,12 @@
 <body>
     <section>
 
-
-        <img src="/img/bg.jpeg" id="bg">
-        <img src="/img/bats.jpeg" id="bats">
-        <img src="/img/castle.jpeg" id="castle">
-        <img src="/img/img.jpeg" id="img">
-        <img src="/img/wolf.jpeg" id="wolf">
+        !
+        <img src="/bg.jpg" id="bg">
+        <img src="/bats.png" id="bats">
+        <img src="/castle.png" id="castle">
+        <img src="/img.png" id="img">
+        <img src="/wolf.png" id="wolf">
 
 
     </section>
@@ -127,9 +127,6 @@
             </p>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-
     <script>
 
         gsap.to("#img", {
@@ -165,6 +162,9 @@
         })
 
     </Script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
 
 </body>
 
