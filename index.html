@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Halloween Effect </title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
@@ -81,12 +79,12 @@
 <body>
     <section>
 
-        !
-        <img src="/img/bg.jpg" id="bg">
-        <img src="/img/bats.png" id="bats">
-        <img src="/img/castle.png" id="castle">
-        <img src="/img/img.png" id="img">
-        <img src="/img/wolf.png" id="wolf">
+
+        <img src="/bg.jpg" id="bg">
+        <img src="/bats.png" id="bats">
+        <img src="/castle.png" id="castle">
+        <img src="/img.png" id="img">
+        <img src="/wolf.png" id="wolf">
 
 
     </section>
@@ -127,21 +125,25 @@
             </p>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
     <script>
 
         gsap.to("#img", {
             scrollTrigger: {
                 scrub: 0.5,
             },
-            x = 1500,
-            y= 500,
+            x :1500,
+            y :500
         })
 
         gsap.from("#wolf", {
             scrollTrigger: {
                 scrub: 0.5,
             },
-            x = 400,
+            x: 400
 
         })
 
@@ -149,7 +151,7 @@
             scrollTrigger: {
                 scrub: 0.5,
             },
-            x = -100,
+            x : -100,
 
         })
 
@@ -157,14 +159,12 @@
             scrollTrigger: {
                 scrub: 0.5,
             },
-            scale = 1.5,
+            scale : 1.5,
 
         })
 
     </Script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-
+   <!-- Meshv PAtel -->
 
 </body>
 
